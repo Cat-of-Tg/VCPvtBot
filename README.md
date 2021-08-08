@@ -4,9 +4,14 @@ A Telegram Bot to Play Audio in Voice Chats With Youtube and Deezer support.
 Supports Live streaming from youtube
 
 
-## Deploy to Heroku
+# How To Host
 The easiest way to deploy this Bot
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/QueenArzoo/VCPvtBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+
+
+- Support Channel :- [Awesome Bot](http://t.me/LaylaList)
+
+- Support Group :- [Awesome Support](http://t.me/AwesomeSupport)
 
 
 ```
@@ -15,7 +20,6 @@ Made with Python3
 (C) @QueenArzoo
 
 ```
-
 NOTE: Make sure you have started a VoiceChat in your Group before deploying.
 ### Deploy to VPS
 
