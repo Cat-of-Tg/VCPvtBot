@@ -69,7 +69,7 @@ Contributions are welcomed, But Kanging and editing a few lines wont make you a 
 Fork the repo, Do not Import code.
 
 ```
-#### Support
+## Support
 
 - Support Channel :- [Awesome Bot](http://t.me/LaylaList)
 
