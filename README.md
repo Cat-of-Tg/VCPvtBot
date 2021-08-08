@@ -3,12 +3,16 @@
 A Telegram Bot to Play Audio in Voice Chats With Youtube and Deezer support.
 Supports Live streaming from youtube
 
+
+# How To Host
+The easiest way to deploy this Bot
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/QueenArzoo/VCPvtBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+
+
 ```
 Please fork this repository don't import code
 Made with Python3
-(C) @subinps
-Copyright permission under MIT License
-License -> https://github.com/subinps/VCPvtBot/blob/master/LICENSE
+(C) @QueenArzoo
 
 ```
 
@@ -67,7 +71,7 @@ Fork the repo, Do not Import code.
 ```
 #### Support
 
-Connect Me On [Telegram](https://telegram.dog/subinps_bot)
+Connect Me On [Telegram](https://t.me/A)
 
 ## Credits 
 - [Dash Eclipse's](https://github.com/dashezup) for his [tgvc-userbot](https://github.com/callsmusic/tgvc-userbot).
