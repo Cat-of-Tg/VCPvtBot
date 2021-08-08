@@ -71,8 +71,12 @@ Fork the repo, Do not Import code.
 ```
 #### Support
 
-Connect Me On [Telegram](https://t.me/A)
+- Support Channel :- [Awesome Bot](http://t.me/LaylaList)
+
+- Support Group :- [Awesome Support](http://t.me/AwesomeSupport)
 
 ## Credits 
 - [Dash Eclipse's](https://github.com/dashezup) for his [tgvc-userbot](https://github.com/callsmusic/tgvc-userbot).
+- [Awesome Bot](http://t.me/LaylaList)
+- [Dev](http://t.me/HEROGAMERS1)
 
