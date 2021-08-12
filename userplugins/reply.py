@@ -7,7 +7,7 @@ from pyrogram.errors import BotInlineDisabled
 @Client.on_message(filters.private & ~filters.bot & filters.incoming & ~filters.service & ~filters.me)
 async def reply(client, message): 
     try:
-        inline = await client.get_inline_bot_results(USERNAME, "ORU_MANDAN_PM_VANNU")
+        inline = await client.get_inline_bot_results(USERNAME, "ORU_POTTAN_PM_VANNU_🐓_ANO_ENNE_ARIYILLA_EEEEEEE")
         m=await client.send_inline_bot_result(
             message.chat.id,
             query_id=inline.query_id,
