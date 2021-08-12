@@ -5,7 +5,7 @@ from config import Config
 U=USERNAME
 CHAT=Config.CHAT
 msg=Config.msg
-HOME_TEXT = "<b>Helo, [{}](tg://user?id={})\n\nIam VCPvtBot 2.0 which plays music in Channels and Groups 24*7.\n\nI can even Stream Youtube Live in Your Voicechat.\n\nDeploy Your Own bot from source code below.\n\nHit /help to know about available commands.</b>"
+HOME_TEXT = "<b>Helo, [{}](tg://user?id={})\n\nIam My Name Is _____ You Can See On Top 🤐 i will plays music for you in Channels and Groups 24*7.\n\nI can even Stream Youtube Live in Your Voicechat😉.\n\nHit /help to know about available commands.</b>"
 HELP = """
 
 <b>Add the bot and User account in your Group with admin rights.
@@ -48,12 +48,12 @@ You can also use /dplay <song name> to play a song from Deezer.</b>
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/LaylaList/4'),
-        InlineKeyboardButton('🤖 Support Group', url='https://t.me/AwesomeSupport'),
+        InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/Music_and_chats'),
+        InlineKeyboardButton('🤖 Support Group', url='https://t.me/Music_and_chats'),
     ],
     [
-        InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/HEROGAMERS1'),
-        InlineKeyboardButton('🧩 Source', url='https://github.com/QueenArzoo/VCPvtBot'),
+        InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/Ok_bie_bot'),
+        InlineKeyboardButton('MUSIC GROUP🎶', url='https://t.me/Music_And_Chats'),
     ],
     [
         InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help'),
@@ -71,12 +71,12 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/Laylalist/4'),
-            InlineKeyboardButton('🤖 Support Group', url='https://t.me/AwesomeSupport'),
+            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/Music_and_chats'),
+            InlineKeyboardButton('🤖 Support Group', url='https://t.me/Music_and_Chats),
         ],
         [
-            InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/HEROGAMERS1'),
-            InlineKeyboardButton('🧩 Source', url='https://github.com/QueenArzoo/VCPvtBot'),
+            InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/ok_bie_bot'),
+            InlineKeyboardButton('MUSIC GROUP🎶 ', url='https://t.me/Music_and_chats'),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
