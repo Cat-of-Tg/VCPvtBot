@@ -1,7 +1,7 @@
 {
   "name": "Telegram Voice Chat Private Music Player Bot ",
   "description": "Telegram Bot to Play Audio in Telegram Voice Chats",
-  "repository": "https://github.com/QueenArzoo/VCPvtBot",
+  "repository": "https://github.com/PoisonBot/VCPvtBot",
   "stack": "container",
   "keywords": [
     "telegram",
@@ -29,7 +29,7 @@
     },
     "ARQ_API": {
       "description": "get it for free from @ARQRobot",
-      "required": false
+      "required": true
     },
     "SESSION_STRING": {
       "description": "Session string, read the README to learn how to export it with Pyrogram",
@@ -64,7 +64,7 @@
     },
     "REPLY_MESSAGE": {
       "description": "A reply message to those who message the USER account in PM. Make it blank if you do not need this feature.",
-      "value": "Helo Ser, Iam a bot to play music, not havimg time to chat with you.",
+      "value": "Helo Ser, Iam a bot to play music, not havimg time to chat with you. if you having any trouble or issue on our bot contact our admins only on our support group @music_and_chats",
       "required": false
     }
   },
