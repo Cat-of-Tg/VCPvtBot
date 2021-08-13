@@ -7,18 +7,18 @@ from config import Config
 REPLY_MESSAGE=Config.REPLY_MESSAGE
 buttons = [
     [
-        InlineKeyboardButton('⚡️Make Own Bot', url='https://heroku.com/deploy?template=https://github.com/QueenArzoo/VCPvtBot'),
-        InlineKeyboardButton('🧩 Source Code', url='https://github.com/QueenArzoo/VCPvtBot'),
+        InlineKeyboardButton('⚡️Sᴜᴘᴘᴏʀᴛ', url='https://t.me/Mercy_Bots'),
+        InlineKeyboardButton('🍭Dᴇᴠ', ),
     ],
     [
         InlineKeyboardButton('🎧Play Music', url=f'https://t.me/{USERNAME}'),
-        InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help')       
+        InlineKeyboardButton('🍫 Help', callback_data='help')       
     ]
     ]
 @Client.on_inline_query()
 async def search(client, query):
     answers = []
-    if query.query == "ORU_MANDAN_PM_VANNU":
+    if query.query == "ORU_POTTAN_PM_VANNU_🐓_ANANNE_THONUNNU":
         answers.append(
             InlineQueryResultArticle(
                 title="Deploy",
